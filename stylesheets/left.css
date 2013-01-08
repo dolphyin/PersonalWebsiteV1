@@ -7,7 +7,7 @@ html, body {
 
 body { 
     display:inline-block;
-    overflow:scroll;
+    overflow:hidden;
 } 
 
 html {
@@ -55,6 +55,16 @@ html {
 #navigation_header {
     font-size:36px;
     text-align:center;
+} 
+
+#middle_border {
+    position:absolute;
+    bottom:-100%;
+    right:0px;
+    height:100%;
+    width:5px;
+    background-color:white;
+
 } 
 
 .clicked {

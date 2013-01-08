@@ -1,0 +1,35 @@
+#projects ul {
+   list-style:none;
+   margin-top:0;
+} 
+
+#projects .content_box img {
+    width:100px; 
+    height:100px;
+    border-radius:20%;
+    opacity: 1;
+    background-color:white;
+    margin-left:10px;
+    margin-right:10px;
+    float:left;
+}
+
+.proj_header p {
+    font-size:22px;
+    font-weight:650;
+    text-decoration:underline;
+    margin-left:15px; 
+    margin-bottom:0;
+    text-transform:uppercase;
+} 
+
+.proj_container {
+    display:inline-block;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:5px;
+} 
+
+.proj_container p {
+} 
+

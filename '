@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <link type="text/css" rel="stylesheet" href="left.css"/>
+        <link type="text/css" rel="stylesheet" href="right.css"/>
+        <link type="text/css" rel="stylesheet" href="antiscroll.css"/>
+        <script type="text/javascript" src="antiscroll.js"></script>
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+
+    </head>
+    <title>This is a title </title>
+    <body>
+        <div id="left_panel"> 
+            <div id="navigation_container">
+                <ul>
+                    <li id="navigation_header">brian yin</li> 
+                    <li><p class="about">about</p></li>
+                    <li><p class="projects">projects</p></li>
+                    <li><p class="contact">contact</p></li>
+                    <li><p class="resume">resume</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right_panel"></div>
+        <div class="right_panel antiscroll-wrap" id="about">
+            <div class="content_box antiscroll-inner">
+                 <div class="content_header">
+                    <p>About</p> 
+                </div>
+                 
+                    <p> Blah blah blah about me blah blah blah </p>
+                    <p> Blah blah blah about me blah blah blah </p>
+                    <p> Blah blah blah about me blah blah blah </p>
+                    <p> Blah blah blah about me blah blah blah </p>
+                    <p> Blah blah blah about me blah blah blah </p>
+                    <p> Blah blah blah about me blah blah blah </p>
+                    <p> Blah blah blah about me blah blah blah </p>
+                    <p> Blah blah blah about me blah blah blah </p>
+                    <p> Blah blah blah about me blah blah blah </p>
+                    <p> Blah blah blah about me blah blah blah </p>
+                    <p> Blah blah blah about me blah blah blah </p>
+                    <p> Blah blah blah about me blah blah blah </p>
+                    <p> Blah blah blah about me blah blah blah </p>
+                    <p> Blah blah blah about me blah blah blah </p>
+                    <p> Blah blah blah about me blah blah blah </p>
+                    <p> Blah blah blah about me blah blah blah </p>
+                    <p> Blah blah blah about me blah blah blah </p>
+                    <p> Blah blah blah about me blah blah blah </p>
+            </div>
+        </div>
+        <div class="right_panel" id="projects">
+            <div class="content_box">
+                <div class="content_header">
+                    <p>Projects</p>
+                </div>
+                <p> blah blah blah projects with images blah blah </p>
+                <div class=".projImage_container">
+                    <img href=" />
+                </div>
+            </div>
+        </div>
+        <div class="right_panel" id="contact">
+            <div class="content_box">
+                <div class="content_header">
+                    <p>Contact</p>
+                </div>
+                <p> Blah blah blah contact info blah blah blah </p> 
+            </div>
+        </div>
+        <div class="right_panel" id="resume">
+            <div class="content_box">
+                <div class="content_header">
+                    <p>Resume</p>
+                </div>
+                <p> Blah blah blah resume blah blah blah </p>
+            </div>
+        </div>
+    </body> 
+    
+</html>

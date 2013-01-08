@@ -1,0 +1,11 @@
+Resume section:
+    -color: more red + orange + less white; tuscan orange, copper, ezi 
+
+left_panel:
+    - highlight selections (maybe change color of the text? or highlight backdrop? or a sliding selection bar?)
+
+content_box:
+    - display antiscroll
+    - implement fixed header 
+    - implement fade for text underneath fixed header
+

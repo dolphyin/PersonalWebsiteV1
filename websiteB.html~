@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="stylesheets/left.css"/>
+        <link type="text/css" rel="stylesheet" href="stylesheets/right.css"/>
+        <link type="text/css" rel="stylesheet" href="stylesheets/projects.css"/>
+        <link type="text/css" rel="stylesheet" href="antiscroll/antiscroll.css"/>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+        <script type="text/javascript" src="antiscroll/antiscroll.js"></script>
+        <script type="text/javascript" src="scripts/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="scripts/script.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    </head>
+    <title> Brian Yin </title>
+    <body>
+        <div id="left_panel"> 
+            <div id="navigation_container">
+                <ul>
+                    <li id="navigation_header">brian yin</li> 
+                    <li><p class="about">about</p></li>
+                    <li><p class="projects">projects</p></li>
+                    <li><p class="contact">contact</p></li>
+                    <li><p class="resume">resume</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right_panel"></div>
+        <div class="right_panel antiscroll-wrap" id="about">
+            <div class="content_box antiscroll-inner">
+                 <div class="content_header">
+                    <p>About</p> 
+                </div>
+                <p> Hey there! I'm <strong> Brian</strong>, a <strong>sophomore at UC Berkeley</strong> studying <strong>EECS</strong> (Electrical Engineering and Computer Science) with a focus on the CS side of things. </p>
+                <p> Outside of school and coding, I love anything <strong>food-related</strong>. You can often find me torturing myself looking at pictures on <a href="http://foodporndaily.com/" target="_blank">foodporndaily.com</a> (it's not like what it sounds like, I swear!). I also enjoy testing new recipes on my roommates and  discovering new places to eat with my trusty Yelp app. 
+                </p>
+                <p> You can find my resume, projects, and contact info on this site. Enjoy your stay!</p> 
+            </div>
+        </div>
+        <div class="right_panel antiscroll-wrap" id="projects">
+            <div class="content_box antiscroll-inner">
+                <div class="content_header"> <p>Projects</p> </div>
+                <ul> 
+                    <li>
+                        <div class="proj_header"> 
+                            <p>Personal Website</p>
+                        </div>
+                        <div class="proj_container">
+                            <img src="images/websitePreview.png">
+                            <p> My very first stab at designing a website. I mainly used jQuery and jQuery Color for animations. Also used a nice plug-in, <a href="http://learnboost.github.com/antiscroll/" target="_blank">AntiScroll</a>, for the OSX Lion-esque scroll bars (courtesy of blah blah). </p>
+                        </div>
+                    </li>  
+                    <li>
+                        <div class="proj_header">
+                            <p> Java Interpreter </p>
+                        </div>
+                        <div class="proj_container">
+                            <img src="images/JavaInterpreter.png">
+                            <p> My first hack. A Java Interpreter I wrote with a couple friends in the 2012 IEEE & H@B Hackathon. I mainly worked on the compiler-side, processing the java file and passing the available methods and attributes for each class to the interpreter. </p>
+                        </div> 
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right_panel antiscroll-wrap" id="contact">
+            <div class="content_box antiscroll-inner">
+                <div class="content_header">
+                    <p>Contact</p>
+                </div>
+                <p> Here's my contact info: </p> 
+
+                <p> <strong> email:</strong> brian.yin(at)berkeley(dot)edu </p>
+            </div>
+        </div>
+        <div class="right_panel antiscroll-wrap" id="resume">
+            <div class="content_box antiscroll-inner">
+                <div class="content_header">
+                    <p>Resume</p>
+                </div>
+                <p> For those interested, please email me with the Title "Resume Request" </p>
+            </div>
+        </div>
+    </body> 
+    
+</html>

@@ -35,17 +35,24 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+    $('#navigation_container p').one('click', function() {
+        $('#middle_border').animate({bottom:"0%"},700);
+    });
+});
+
+$(document).ready(function() {
     $('#navigation_container p').click(function() {
         var clicked = $(this);
         var clickClass = $(this).attr("class");
         $('html,body').animate ({
             scrollTop: $(".right_panel#"+clickClass).offset().top},
-        500);
+        700);
         $('#navigation_container p').stop().animate({color:"#FFF"}).removeClass('clicked');
         $(this).stop().animate({color:'#000'}).addClass('clicked');
-        $('#left_panel').css("border-right", "5px solid white");
     });
 });
+
+
 
 $(function () {
     $('.antiscroll-wrap').antiscroll();
